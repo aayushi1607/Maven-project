@@ -23,7 +23,7 @@ public class WelcomeController {
         model.addAttribute("message", message);
         model.addAttribute("tasks", tasks);
 
-        return "welcome"; //view
+        return "/welcome"; //view
     }
 
     // /hello?name=kotlin
@@ -34,7 +34,7 @@ public class WelcomeController {
 
         model.addAttribute("message", name);
 
-        return "welcome"; //view
+        return "/welcome"; //view
     }
 
 }
